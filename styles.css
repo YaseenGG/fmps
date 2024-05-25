@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.hero{
+    background-image: url('images/3225179_app_logo_media_popular_social_icon.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about {
+    background-color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.tours {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.tour {
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tour:hover {
+    transform: scale(1.05);
+}
+
+.tour img {
+    max-width: 100%;
+}
+
+.contact {
+    background-color:#2C3E50;
+    color: #fff;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2C3E50;
+    color: #ffcc00;
+}
+
+
+#websiteName:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    color:  #ffcc00;
+
+}
